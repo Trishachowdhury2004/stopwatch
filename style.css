@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: 
+        linear-gradient(to right, rgba(74, 144, 226, 0.7), rgba(144, 19, 254, 0.7)), /* Gradient overlay with transparency */
+        url('background.jpg'); /* Background image */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.title {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 14%;
+    right: 60%;
+    border-bottom: 3px solid #ff5636;
+    margin-top: -10px;
+}
+
+.title h1 {
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(218, 10, 10);
+    margin-bottom: 5px;
+}
+
+.title img {
+    width: 50px;
+    margin-left: 2px;
+}
+
+
+.stopwatch {
+    font-family: "Courier Prime", monospace;
+    font-style: italic;
+    position: relative;
+    width: 90%;
+    max-width: 482px;
+    background-color: rgba(200, 220, 225, 0.1);
+    backdrop-filter: blur(3px);
+    text-align: center;
+    border-radius: 10px;
+    padding: 40px 0;
+    color: white;
+    margin: 170px 160px 0;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
+}
+
+
+.stopwatch h1 {
+    margin-top: 15px;
+    font-size: 64px;
+    font-weight: 300;
+}
+
+h3 {
+    position: absolute;
+    right: 11%;
+    top: 23%;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons img {
+    width: 50px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.buttons img:nth-child(2) {
+    width: 80px;
+}
